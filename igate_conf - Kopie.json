@@ -1,0 +1,83 @@
+{
+    "callsign": "NOCALL-10",
+    "wifi": {
+        "autoAP": {
+            "password": "1234567890",
+            "powerOff": 10
+        },
+        "AP": [
+        {   "ssid": "WIFI_1",
+            "password": "WIFI_1_password",
+            "latitude": 51.169976,
+            "longitude": 6.880773
+        },
+        {   "ssid": "WIFI_2",
+            "password": "WIFI_2_password",
+            "latitude": 0.0000000,
+            "longitude": 0.0000000
+        }        
+        ]
+    },
+    "beacon": {
+        "latitude": 0.0,
+        "longitude": 0.0,
+        "comment": "LoRa APRS",
+        "interval": 15,
+        "overlay": "L",
+        "symbol": "a",
+        "path": "WIDE1-1",
+        "sendViaAPRSIS": false,
+        "sendViaRF": false
+    },
+    "digi": {
+        "mode": 0
+    },
+    "tnc": {
+        "enableServer": false,
+        "enableSerial": false,
+        "acceptOwn": false
+    },
+    "aprs_is": {
+        "active": false,
+        "passcode": "XYZVW",
+        "server": "rotate.aprs2.net",
+        "port": 14580,
+        "filter": "m/10",
+        "toRF": false
+    },
+    "lora": {
+        "txFreq": 433775000,
+        "rxFreq": 433775000,
+        "spreadingFactor": 12,
+        "signalBandwidth": 125000,
+        "codingRate4": 5,
+        "power": 20,
+        "txActive": false,
+        "rxActive": true
+    },
+    "display": {
+        "alwaysOn": true,
+        "timeout": 4,
+        "turn180": false
+    },
+    "syslog": {
+        "active": false,
+        "server": "192.168.0.100",
+        "port": 514
+    },
+    "bme": {
+        "active": false
+    },
+    "ota": {
+        "username": "",
+        "password": ""
+    },
+    "other": {
+        "rememberStationTime": 30,
+        "sendBatteryVoltage": false,
+        "externalVoltageMeasurement": false,
+        "externalVoltagePin": 34,
+        "lowPowerMode": false,
+        "lowVoltageCutOff": 0
+    }
+}
